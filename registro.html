@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Registrar-se</title>
+</head>
+<body>
+	<div class="box">
+	  <form action="">
+	    <fieldset>
+	      <legend><b>Tech•Montion</b></legend>
+	      <br />
+	      <div class="inputBox">
+	        <input type="text" name="nome" id="nome" class="usuario" required/>
+	        <label for="nome" class="label-input">Nome de usuario</label>
+	      </div>
+	      <br /><br />
+	      <div class="inputBox">
+
+	        <input type="email" name="email" id="email" class="usuario" required/>
+
+	        <label for="email" class="label-input">Email</label>
+	      </div>
+	      <br /><br />
+	      <div class="inputBox">
+	        <input type="tel" name="telefone" id="telefone" class="usuario" required/>
+	        <label for="telefone" class="label-input">Telefone</label>
+	      </div>
+	      
+	      <p>Sexo: </p>
+	      <input type="radio" name="genero" id="feminino" value="Feminino" required/>
+	      <label for="feminino">Feminino</label>
+	      <br />
+	      <input type="radio" name="genero" id="masculino" value="Masculino" required/>
+	      <label for="masculino">Masculino</label>
+	      <br /><br />
+	      <div class="inputBox">
+          <label for="data"><b>Data de Nascimento</b></label>
+	        <input type="date" name="data" id="data" required/>
+	        </div>
+	        <br /><br />
+	        <!-- Segundo Campo -->
+            <div class="inputBox">
+	        <input type="text" name="cidade" id="cidade" class="usuario" required/>
+
+	        <label for="cidade" class="label-input">Cidade</label>
+	      </div>
+	      <br /><br />
+	        <div class="inputBox">
+
+
+
+	        <input type="text" name="estado" id="estado" class="usuario" required/>
+
+	        <label for="estado" class="label-input">Estado</label>
+	      </div>
+	      <br /><br />
+	      <div class="inputBox">
+
+	        <input type="text" name="endereco" id="endereco" class="usuario" required/>
+
+	        <label for="endereco" class="label-input">Endereço</label>
+	      </div>
+	      <br /><br />
+	      <input type="submit" name="enviar_formulario" id="submit" value="Enviar" />
+	    </fieldset>
+	  </form>
+	</div>
+</body>
+</html>
